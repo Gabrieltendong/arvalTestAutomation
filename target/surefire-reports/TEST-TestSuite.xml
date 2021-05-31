@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="316.483" tests="9" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\src\test\resources\driver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\target\test-classes;C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\target\classes;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Gabriel\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gabriel\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Gabriel\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Gabriel\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Gabriel\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Gabriel\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Gabriel\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-2\selenium-java-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-2\selenium-edgehtml-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-2\selenium-edge-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-2\selenium-firefox-xpi-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-2\selenium-firefox-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-2\selenium-ie-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-2\selenium-opera-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-2\selenium-safari-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Gabriel\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Gabriel\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-testng\6.10.3\cucumber-testng-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-picocontainer\6.10.3\cucumber-picocontainer-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-2\selenium-api-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-2\selenium-chrome-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-2\selenium-chromium-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-2\selenium-support-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-2\selenium-remote-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\contrib\opentracing-tracerresolver\0.1.7\opentracing-tracerresolver-0.1.7.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okhttp3\okhttp\3.14.0\okhttp-3.14.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-util\0.33.0\opentracing-util-0.33.0.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-noop\0.33.0\opentracing-noop-0.33.0.jar;C:\Users\Gabriel\.m2\repository\org\jetbrains\annotations\21.0.1\annotations-21.0.1.jar;C:\Users\Gabriel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Gabriel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Gabriel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Gabriel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Gabriel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Gabriel\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Gabriel\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Gabriel\AppData\Local\Temp\surefire6137397881500639848\surefirebooter4685182627528042217.jar C:\Users\Gabriel\AppData\Local\Temp\surefire6137397881500639848 2021-05-28T11-06-59_971-jvmRun1 surefire6415483153892379318tmp surefire_07204575710257564961tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\target\test-classes;C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\target\classes;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Gabriel\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gabriel\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Gabriel\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Gabriel\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Gabriel\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Gabriel\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Gabriel\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-2\selenium-java-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-2\selenium-edgehtml-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-2\selenium-edge-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-2\selenium-firefox-xpi-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-2\selenium-firefox-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-2\selenium-ie-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-2\selenium-opera-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-2\selenium-safari-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Gabriel\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Gabriel\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-testng\6.10.3\cucumber-testng-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-picocontainer\6.10.3\cucumber-picocontainer-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-2\selenium-api-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-2\selenium-chrome-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-2\selenium-chromium-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-2\selenium-support-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-2\selenium-remote-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\contrib\opentracing-tracerresolver\0.1.7\opentracing-tracerresolver-0.1.7.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okhttp3\okhttp\3.14.0\okhttp-3.14.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-util\0.33.0\opentracing-util-0.33.0.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-noop\0.33.0\opentracing-noop-0.33.0.jar;C:\Users\Gabriel\.m2\repository\org\jetbrains\annotations\21.0.1\annotations-21.0.1.jar;C:\Users\Gabriel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Gabriel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Gabriel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Gabriel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Gabriel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Gabriel\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Gabriel\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Gabriel"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gabriel\AppData\Local\Temp\surefire6137397881500639848\surefirebooter4685182627528042217.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="Gabriel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Gabriel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Gabriel\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Gabriel\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\wamp64\bin\php\php7.4.0;C:\composer;C:\Users\Gabriel\Documents\apache-maven-3.6.3\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Gabriel\Documents\flutter\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\Gabriel\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Gabriel\AppData\Local\Programs\Python\Python38-32\;C:\Users\Gabriel\AppData\Local\Yarn\bin;C:\Users\Gabriel\AppData\Roaming\Composer\vendor\bin;C:\Users\Gabriel\.dotnet\tools;C:\Users\Gabriel\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Slow loading of the home page&quot;, &quot;Optional[access direct link]&quot;](1)" classname="TestRunner" time="15.622">
+    <system-out><![CDATA[
+Scenario: Slow loading of the home page # src/test/resources/features/accessDirectLink.feature:3
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (3c50a4423eb2601695f0f363fe306b64)
+  Given user navigate to home page      # StepDefinitions.SlowLoadingHomePageSteps.navigateToHomePage()
+temps de chargement long11
+  Then count number of loading times    # StepDefinitions.SlowLoadingHomePageSteps.countTimeLoadingPage()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 1046
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196427.073][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196427.075][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:07:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Ineffective job search filter&quot;, &quot;Optional.empty&quot;](2)" classname="TestRunner" time="41.333">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Ineffective job search filter               # src/test/resources/features/arval.feature:5
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (104970406c5d2e79dce828302b36c050)
+  Given user connect to the homePage                  # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+  And Click on the link About Arval                   # StepDefinitions.IneffectiveJobSearchFilterSteps.ClickOnTheLinkAboutArval()
+  And Click on the link 'Careers & jobs'              # StepDefinitions.IneffectiveJobSearchFilterSteps.ClickOnTheLinkCareersJobs()
+  Then Select 'CDI' from the <<I'm looking for>> link # StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI()
+      java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:28)
+	at âœ½.Select 'CDI' from the <<I'm looking for>> link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:8)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 38118
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196441.075][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196441.075][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:07:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;link returning an error page&quot;, &quot;Optional.empty&quot;](3)" classname="TestRunner" time="35.174">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+]]></failure>
+    <system-out><![CDATA[
+Scenario: link returning an error page                                                                        # src/test/resources/features/arval.feature:10
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (05021c849d9c67ab5791f74b365e5282)
+  Given user connect to the homePage                                                                          # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+  And At footer level click on an international partner                                                       # StepDefinitions.LinkNotFoundSteps.navigateToInternationalPartner()
+  Then The international partner page opens, in the navigation bar click on the expertise and professions tab # StepDefinitions.LinkNotFoundSteps.navigateToexpertiseAndProfessional()
+  And Scroller et faire un clic sur l'offre location longue durÃ©e dâ€™Arval                                     # StepDefinitions.LinkNotFoundSteps.scrollerEtFaireUnClicSurLOffreLocationLongueDurÃ©eDArval()
+  And A drop-down description is displayed, click on the link discover products and services                  # StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices()
+      java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:31)
+	at âœ½.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:14)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 25042
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196482.206][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196482.207][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:08:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Redirection to insecure links&quot;, &quot;Optional.empty&quot;](4)" classname="TestRunner" time="35.379">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Redirection to insecure links       # src/test/resources/features/arval.feature:16
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (9121f7c80d8e40cbeb289cbb61fed32a)
+  Given user connect to the homePage          # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+  And ckeck all link to verify insecure links # StepDefinitions.InsecureLinkSteps.ckeckAllLink()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at PageObjects.HomePage.navigateAllLink(HomePage.java:79)
+	at StepDefinitions.InsecureLinkSteps.ckeckAllLink(InsecureLinkSteps.java:9)
+	at âœ½.ckeck all link to verify insecure links(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:17)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46772
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196516.984][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196516.984][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:08:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Image not Load&quot;, &quot;Optional.empty&quot;](5)" classname="TestRunner" time="41.774">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Image not Load                          # src/test/resources/features/arval.feature:19
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (92fef6870dd5049878f269dd082108f6)
+  Given user connect to the homePage              # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+  And navigate to link Fleet management solutions # StepDefinitions.ImageNotLoadSteps.navigateToLinkFleetManagementSolutions()
+  And navigate to link Why arval                  # StepDefinitions.ImageNotLoadSteps.navigateToLinkWhyArval()
+  Then see image header not load                  # StepDefinitions.ImageNotLoadSteps.checkLoadImage()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:21)
+	at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:22)
+	at âœ½.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:22)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 37644
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196552.899][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196552.899][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:09:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Incorret alignment component&quot;, &quot;Optional.empty&quot;](6)" classname="TestRunner" time="26.08">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Incorret alignment component        # src/test/resources/features/arval.feature:24
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (0e395026daf7775182dcc249d769fcaa)
+  Given user connect to the homePage          # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+  And navigate to "a car in long term rental" # StepDefinitions.IncorretAlignmentComponentSteps.navigateToCarInLongTermRental()
+Bug non corrigé
+  Then verfiy position element                # StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:40)
+	at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:15)
+	at âœ½.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 39899
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196594.988][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196594.989][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:09:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;The &quot;Contact us&quot; link is non-functional&quot;, &quot;Optional.empty&quot;](7)" classname="TestRunner" time="39.418">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[
+Scenario: The "Contact us" link is non-functional # src/test/resources/features/arval.feature:28
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (cc905a72ca86263745ef41747aefe21f)
+  Given user connect to the homePage              # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+  And search car                                  # StepDefinitions.ContactLinkNotWorking.searchCar()
+link non correct, bug non corrigéhttps://www.arval.fr/location/abarth?vehicleTypeRef=VHTPRI#xx
+  And click on button "Contact us"                # StepDefinitions.ContactLinkNotWorking.clickOnButtonContact()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:16)
+	at âœ½.click on button "Contact us"(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:30)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 35877
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196620.823][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196620.823][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:10:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Change language link is empty&quot;, &quot;Optional.empty&quot;](8)" classname="TestRunner" time="35.404">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Change language link is empty # src/test/resources/features/arval.feature:32
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (8d3748579fb998e33e6a9443903a3300)
+  Given user connect to the homePage    # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+bug non resolu
+  And change language website           # StepDefinitions.ChangeLangWorkingSteps.changeLanguage()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at PageObjects.HomePage.getcontentdropdown(HomePage.java:136)
+	at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:9)
+	at âœ½.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:33)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 40031
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196660.422][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196660.422][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:11:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Bad character management&quot;, &quot;Optional.empty&quot;](9)" classname="TestRunner" time="43.177">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Bad character management   # src/test/resources/features/arval.feature:35
+salut
+Windows 10
+driver: ChromeDriver: chrome on WINDOWS (12cdb7a269c64334c9b171ea7a41fb0b)
+  Given user connect to the homePage # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+  And navigate to professional page  # StepDefinitions.BadCharacterManagementSteps.navigateToProfessionalPage()
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug corrigé: 
+Bug non corrigé: S�RIE 3 BERLINE / 4P / BERLINE
+  Then click to mark BMW             # StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:52)
+	at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:16)
+	at âœ½.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:37)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 32596
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622196695.765][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622196695.766][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+mai 28, 2021 11:11:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

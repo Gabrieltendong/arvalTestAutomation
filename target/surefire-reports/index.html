@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ArvalTestAutomation">
+              <span class="suite-name border-failed">ArvalTestAutomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ArvalTestAutomation">
+                    <span>C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ArvalTestAutomation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ArvalTestAutomation">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ArvalTestAutomation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ArvalTestAutomation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ArvalTestAutomation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ArvalTestAutomation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 8 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ArvalTestAutomation" class="hide-methods failed suite-ArvalTestAutomation"> (hide)</a> <!-- hide-methods failed suite-ArvalTestAutomation -->
+                      <a href="#" panel-name="suite-ArvalTestAutomation" class="show-methods failed suite-ArvalTestAutomation"> (show)</a> <!-- show-methods failed suite-ArvalTestAutomation -->
+                    </span>
+                    <div class="method-list-content failed suite-ArvalTestAutomation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;Bad character management&quot;, &quot;Optional.empty&quot;)">runScenario("Bad character management", "Optional.empty")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;Ineffective job search filter&quot;, &quot;Optional.empty&quot;)">runScenario("Ineffective job search filter", "Optional.empty")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;Image not Load&quot;, &quot;Optional.empty&quot;)">runScenario("Image not Load", "Optional.empty")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;Incorret alignment component&quot;, &quot;Optional.empty&quot;)">runScenario("Incorret alignment component", "Optional.empty")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;Change language link is empty&quot;, &quot;Optional.empty&quot;)">runScenario("Change language link is empty", "Optional.empty")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;link returning an error page&quot;, &quot;Optional.empty&quot;)">runScenario("link returning an error page", "Optional.empty")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;The &quot;Contact us&quot; link is non-functional&quot;, &quot;Optional.empty&quot;)">runScenario("The "Contact us" link is non-functional", "Optional.empty")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;Redirection to insecure links&quot;, &quot;Optional.empty&quot;)">runScenario("Redirection to insecure links", "Optional.empty")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ArvalTestAutomation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ArvalTestAutomation" class="hide-methods passed suite-ArvalTestAutomation"> (hide)</a> <!-- hide-methods passed suite-ArvalTestAutomation -->
+                      <a href="#" panel-name="suite-ArvalTestAutomation" class="show-methods passed suite-ArvalTestAutomation"> (show)</a> <!-- show-methods passed suite-ArvalTestAutomation -->
+                    </span>
+                    <div class="method-list-content passed suite-ArvalTestAutomation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ArvalTestAutomation" title="TestRunner" hash-for-method="runScenario(&quot;Slow loading of the home page&quot;, &quot;Optional[access direct link]&quot;)">runScenario("Slow loading of the home page", "Optional[access direct link]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ArvalTestAutomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ArvalTestAutomation" class="panel ArvalTestAutomation">
+          <div class="suite-ArvalTestAutomation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Bad character management&quot;, &quot;Optional.empty&quot;)">
+                  </a> <!-- runScenario("Bad character management", "Optional.empty") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Bad character management", "Optional.empty")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:52)
+	at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:16)
+	at ✽.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:37)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Ineffective job search filter&quot;, &quot;Optional.empty&quot;)">
+                  </a> <!-- runScenario("Ineffective job search filter", "Optional.empty") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Ineffective job search filter", "Optional.empty")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:28)
+	at ✽.Select &apos;CDI&apos; from the &lt;&lt;I&apos;m looking for&gt;&gt; link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:8)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Image not Load&quot;, &quot;Optional.empty&quot;)">
+                  </a> <!-- runScenario("Image not Load", "Optional.empty") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Image not Load", "Optional.empty")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:21)
+	at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:22)
+	at ✽.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:22)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Incorret alignment component&quot;, &quot;Optional.empty&quot;)">
+                  </a> <!-- runScenario("Incorret alignment component", "Optional.empty") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Incorret alignment component", "Optional.empty")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:40)
+	at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:15)
+	at ✽.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Change language link is empty&quot;, &quot;Optional.empty&quot;)">
+                  </a> <!-- runScenario("Change language link is empty", "Optional.empty") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Change language link is empty", "Optional.empty")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.HomePage.getcontentdropdown(HomePage.java:136)
+	at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:9)
+	at ✽.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:33)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;link returning an error page&quot;, &quot;Optional.empty&quot;)">
+                  </a> <!-- runScenario("link returning an error page", "Optional.empty") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("link returning an error page", "Optional.empty")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:31)
+	at ✽.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:14)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The &quot;Contact us&quot; link is non-functional&quot;, &quot;Optional.empty&quot;)">
+                  </a> <!-- runScenario("The "Contact us" link is non-functional", "Optional.empty") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The "Contact us" link is non-functional", "Optional.empty")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:16)
+	at ✽.click on button &quot;Contact us&quot;(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:30)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Redirection to insecure links&quot;, &quot;Optional.empty&quot;)">
+                  </a> <!-- runScenario("Redirection to insecure links", "Optional.empty") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Redirection to insecure links", "Optional.empty")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.HomePage.navigateAllLink(HomePage.java:79)
+	at StepDefinitions.InsecureLinkSteps.ckeckAllLink(InsecureLinkSteps.java:9)
+	at ✽.ckeck all link to verify insecure links(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:17)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ArvalTestAutomation-class-failed -->
+          <div class="suite-ArvalTestAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Slow loading of the home page&quot;, &quot;Optional[access direct link]&quot;)">
+                  </a> <!-- runScenario("Slow loading of the home page", "Optional[access direct link]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Slow loading of the home page", "Optional[access direct link]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ArvalTestAutomation-class-passed -->
+        </div> <!-- panel ArvalTestAutomation -->
+        <div panel-name="test-xml-ArvalTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;ArvalTestAutomation&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ChromeTest&quot; parallel=&quot;methods&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- ArvalTestAutomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ArvalTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ArvalTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ArvalTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ArvalTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ArvalTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ArvalTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ArvalTestAutomation');
+function tableData_ArvalTestAutomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'TestRunner')
+data.setCell(0, 3, 43033);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'TestRunner')
+data.setCell(1, 3, 41913);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'TestRunner')
+data.setCell(2, 3, 41152);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'TestRunner')
+data.setCell(3, 3, 39463);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'TestRunner')
+data.setCell(4, 3, 35910);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'TestRunner')
+data.setCell(5, 3, 35350);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'TestRunner')
+data.setCell(6, 3, 34782);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'TestRunner')
+data.setCell(7, 3, 26034);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'TestRunner')
+data.setCell(8, 3, 15317);
+window.suiteTableData['ArvalTestAutomation']= { tableData: data, tableDiv: 'times-div-ArvalTestAutomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-ArvalTestAutomation">
+              </div> <!-- times-div-ArvalTestAutomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ArvalTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ArvalTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ArvalTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ArvalTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Slow loading of the home page", "Optional[access direct link]")</span>
+                <span class="method-start">953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Ineffective job search filter", "Optional.empty")</span>
+                <span class="method-start">16297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("link returning an error page", "Optional.empty")</span>
+                <span class="method-start">57484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Redirection to insecure links", "Optional.empty")</span>
+                <span class="method-start">92267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Image not Load", "Optional.empty")</span>
+                <span class="method-start">128178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Incorret alignment component", "Optional.empty")</span>
+                <span class="method-start">170091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("The "Contact us" link is non-functional", "Optional.empty")</span>
+                <span class="method-start">196126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Change language link is empty", "Optional.empty")</span>
+                <span class="method-start">235589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Bad character management", "Optional.empty")</span>
+                <span class="method-start">270940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">313976 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

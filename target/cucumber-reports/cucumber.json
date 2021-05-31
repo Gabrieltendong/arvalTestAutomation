@@ -1,0 +1,727 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-28T10:07:05.455Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3332000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Slow loading of the home page",
+        "description": "",
+        "id": "access-direct-link;slow-loading-of-the-home-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11557000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to home page",
+            "match": {
+              "location": "StepDefinitions.SlowLoadingHomePageSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "count number of loading times",
+            "match": {
+              "location": "StepDefinitions.SlowLoadingHomePageSteps.countTimeLoadingPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "access direct link",
+    "description": "",
+    "id": "access-direct-link",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/accessDirectLink.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9411000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user connect to the homePage",
+            "match": {
+              "location": "StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T10:07:20.494Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1995000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Ineffective job search filter",
+        "description": "",
+        "id": ";ineffective-job-search-filter",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8711000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the link About Arval",
+            "match": {
+              "location": "StepDefinitions.IneffectiveJobSearchFilterSteps.ClickOnTheLinkAboutArval()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11857000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on the link \u0027Careers \u0026 jobs\u0027",
+            "match": {
+              "location": "StepDefinitions.IneffectiveJobSearchFilterSteps.ClickOnTheLinkCareersJobs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertFalse(Assert.java:67)\r\n\tat org.testng.Assert.assertFalse(Assert.java:77)\r\n\tat StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:28)\r\n\tat ✽.Select \u0027CDI\u0027 from the \u003c\u003cI\u0027m looking for\u003e\u003e link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:8)\r\n",
+              "duration": 9106000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Select \u0027CDI\u0027 from the \u003c\u003cI\u0027m looking for\u003e\u003e link",
+            "match": {
+              "location": "StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10554000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user connect to the homePage",
+            "match": {
+              "location": "StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T10:08:01.643Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2020000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "link returning an error page",
+        "description": "",
+        "id": ";link-returning-an-error-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9347000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "At footer level click on an international partner",
+            "match": {
+              "location": "StepDefinitions.LinkNotFoundSteps.navigateToInternationalPartner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2717000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The international partner page opens, in the navigation bar click on the expertise and professions tab",
+            "match": {
+              "location": "StepDefinitions.LinkNotFoundSteps.navigateToexpertiseAndProfessional()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10048000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Scroller et faire un clic sur l\u0027offre location longue durée d’Arval",
+            "match": {
+              "location": "StepDefinitions.LinkNotFoundSteps.scrollerEtFaireUnClicSurLOffreLocationLongueDuréeDArval()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertFalse(Assert.java:67)\r\n\tat org.testng.Assert.assertFalse(Assert.java:77)\r\n\tat StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:31)\r\n\tat ✽.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:14)\r\n",
+              "duration": 70000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "A drop-down description is displayed, click on the link discover products and services",
+            "match": {
+              "location": "StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11523000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user connect to the homePage",
+            "match": {
+              "location": "StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T10:08:36.417Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1620000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Redirection to insecure links",
+        "description": "",
+        "id": ";redirection-to-insecure-links",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat PageObjects.HomePage.navigateAllLink(HomePage.java:79)\r\n\tat StepDefinitions.InsecureLinkSteps.ckeckAllLink(InsecureLinkSteps.java:9)\r\n\tat ✽.ckeck all link to verify insecure links(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:17)\r\n",
+              "duration": 22755000000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "ckeck all link to verify insecure links",
+            "match": {
+              "location": "StepDefinitions.InsecureLinkSteps.ckeckAllLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14237000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user connect to the homePage",
+            "match": {
+              "location": "StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T10:09:12.342Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1941000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Image not Load",
+        "description": "",
+        "id": ";image-not-load",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9624000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "navigate to link Fleet management solutions",
+            "match": {
+              "location": "StepDefinitions.ImageNotLoadSteps.navigateToLinkFleetManagementSolutions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11914000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "navigate to link Why arval",
+            "match": {
+              "location": "StepDefinitions.ImageNotLoadSteps.navigateToLinkWhyArval()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:21)\r\n\tat StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:22)\r\n\tat ✽.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:22)\r\n",
+              "duration": 4166000000,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "see image header not load",
+            "match": {
+              "location": "StepDefinitions.ImageNotLoadSteps.checkLoadImage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11395000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user connect to the homePage",
+            "match": {
+              "location": "StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T10:09:54.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2251000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Incorret alignment component",
+        "description": "",
+        "id": ";incorret-alignment-component",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11984000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "navigate to \"a car in long term rental\"",
+            "match": {
+              "location": "StepDefinitions.IncorretAlignmentComponentSteps.navigateToCarInLongTermRental()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:40)\r\n\tat StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:15)\r\n\tat ✽.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)\r\n",
+              "duration": 386000000,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "verfiy position element",
+            "match": {
+              "location": "StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12243000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user connect to the homePage",
+            "match": {
+              "location": "StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T10:10:20.274Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1853000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "The \"Contact us\" link is non-functional",
+        "description": "",
+        "id": ";the-\"contact-us\"-link-is-non-functional",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25334000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "search car",
+            "match": {
+              "location": "StepDefinitions.ContactLinkNotWorking.searchCar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:16)\r\n\tat ✽.click on button \"Contact us\"(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:30)\r\n",
+              "duration": 25000000,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "click on button \"Contact us\"",
+            "match": {
+              "location": "StepDefinitions.ContactLinkNotWorking.clickOnButtonContact()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14524000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user connect to the homePage",
+            "match": {
+              "location": "StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T10:10:59.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2886000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Change language link is empty",
+        "description": "",
+        "id": ";change-language-link-is-empty",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat PageObjects.HomePage.getcontentdropdown(HomePage.java:136)\r\n\tat StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:9)\r\n\tat ✽.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:33)\r\n",
+              "duration": 17915000000,
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "change language website",
+            "match": {
+              "location": "StepDefinitions.ChangeLangWorkingSteps.changeLanguage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12906000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user connect to the homePage",
+            "match": {
+              "location": "StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T10:11:35.090Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2046000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Bad character management",
+        "description": "",
+        "id": ";bad-character-management",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12024000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "navigate to professional page",
+            "match": {
+              "location": "StepDefinitions.BadCharacterManagementSteps.navigateToProfessionalPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:52)\r\n\tat StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:16)\r\n\tat ✽.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:37)\r\n",
+              "duration": 16046000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "click to mark BMW",
+            "match": {
+              "location": "StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/arval.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>ArvalTestAutomation</td>
+        <td>1</td>
+      <td>28 May 2021, 11:12</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW()</td>
+              <td>1</td>
+              <td class="duration" data-value="16046000000">16.046</td>
+              <td class="duration" data-value="16046000000">16.046</td>
+              <td class="duration" data-value="16046000000">16.046</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.BadCharacterManagementSteps.navigateToProfessionalPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="12024000000">12.024</td>
+              <td class="duration" data-value="12024000000">12.024</td>
+              <td class="duration" data-value="12024000000">12.024</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.ChangeLangWorkingSteps.changeLanguage()</td>
+              <td>1</td>
+              <td class="duration" data-value="17915000000">17.915</td>
+              <td class="duration" data-value="17915000000">17.915</td>
+              <td class="duration" data-value="17915000000">17.915</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.ContactLinkNotWorking.clickOnButtonContact()</td>
+              <td>1</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.ContactLinkNotWorking.searchCar()</td>
+              <td>1</td>
+              <td class="duration" data-value="25334000000">25.334</td>
+              <td class="duration" data-value="25334000000">25.334</td>
+              <td class="duration" data-value="25334000000">25.334</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.CucumberHooks.setup()</td>
+              <td>9</td>
+              <td class="duration" data-value="2216000000">2.216</td>
+              <td class="duration" data-value="2216000000">3.332</td>
+              <td class="duration" data-value="19944000000">19.944</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.CucumberHooks.teardown()</td>
+              <td>9</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.ImageNotLoadSteps.checkLoadImage()</td>
+              <td>1</td>
+              <td class="duration" data-value="4166000000">4.166</td>
+              <td class="duration" data-value="4166000000">4.166</td>
+              <td class="duration" data-value="4166000000">4.166</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.ImageNotLoadSteps.navigateToLinkFleetManagementSolutions()</td>
+              <td>1</td>
+              <td class="duration" data-value="9624000000">9.624</td>
+              <td class="duration" data-value="9624000000">9.624</td>
+              <td class="duration" data-value="9624000000">9.624</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.ImageNotLoadSteps.navigateToLinkWhyArval()</td>
+              <td>1</td>
+              <td class="duration" data-value="11914000000">11.914</td>
+              <td class="duration" data-value="11914000000">11.914</td>
+              <td class="duration" data-value="11914000000">11.914</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.IncorretAlignmentComponentSteps.navigateToCarInLongTermRental()</td>
+              <td>1</td>
+              <td class="duration" data-value="11984000000">11.984</td>
+              <td class="duration" data-value="11984000000">11.984</td>
+              <td class="duration" data-value="11984000000">11.984</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement()</td>
+              <td>1</td>
+              <td class="duration" data-value="386000000">0.386</td>
+              <td class="duration" data-value="386000000">0.386</td>
+              <td class="duration" data-value="386000000">0.386</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.IneffectiveJobSearchFilterSteps.ClickOnTheLinkAboutArval()</td>
+              <td>1</td>
+              <td class="duration" data-value="8711000000">8.711</td>
+              <td class="duration" data-value="8711000000">8.711</td>
+              <td class="duration" data-value="8711000000">8.711</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.IneffectiveJobSearchFilterSteps.ClickOnTheLinkCareersJobs()</td>
+              <td>1</td>
+              <td class="duration" data-value="11857000000">11.857</td>
+              <td class="duration" data-value="11857000000">11.857</td>
+              <td class="duration" data-value="11857000000">11.857</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI()</td>
+              <td>1</td>
+              <td class="duration" data-value="9106000000">9.106</td>
+              <td class="duration" data-value="9106000000">9.106</td>
+              <td class="duration" data-value="9106000000">9.106</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.InsecureLinkSteps.ckeckAllLink()</td>
+              <td>1</td>
+              <td class="duration" data-value="22755000000">22.755</td>
+              <td class="duration" data-value="22755000000">22.755</td>
+              <td class="duration" data-value="22755000000">22.755</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices()</td>
+              <td>1</td>
+              <td class="duration" data-value="70000000">0.070</td>
+              <td class="duration" data-value="70000000">0.070</td>
+              <td class="duration" data-value="70000000">0.070</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.LinkNotFoundSteps.navigateToInternationalPartner()</td>
+              <td>1</td>
+              <td class="duration" data-value="9347000000">9.347</td>
+              <td class="duration" data-value="9347000000">9.347</td>
+              <td class="duration" data-value="9347000000">9.347</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.LinkNotFoundSteps.navigateToexpertiseAndProfessional()</td>
+              <td>1</td>
+              <td class="duration" data-value="2717000000">2.717</td>
+              <td class="duration" data-value="2717000000">2.717</td>
+              <td class="duration" data-value="2717000000">2.717</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.LinkNotFoundSteps.scrollerEtFaireUnClicSurLOffreLocationLongueDur&eacute;eDArval()</td>
+              <td>1</td>
+              <td class="duration" data-value="10048000000">10.048</td>
+              <td class="duration" data-value="10048000000">10.048</td>
+              <td class="duration" data-value="10048000000">10.048</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()</td>
+              <td>8</td>
+              <td class="duration" data-value="12099125000">12.099</td>
+              <td class="duration" data-value="12099125000">14.524</td>
+              <td class="duration" data-value="96793000000">1:36.793</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.SlowLoadingHomePageSteps.countTimeLoadingPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.SlowLoadingHomePageSteps.navigateToHomePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="11557000000">11.557</td>
+              <td class="duration" data-value="11557000000">11.557</td>
+              <td class="duration" data-value="11557000000">11.557</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>23</td>
+            <td>46</td>
+            <td class="duration">6.789</td>
+            <td class="duration">1:36.793</td>
+            <td class="duration">5:12.323</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
