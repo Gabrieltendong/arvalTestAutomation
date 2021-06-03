@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="8" ignored="0" total="9" passed="1">
+<testng-results skipped="0" failed="7" ignored="0" total="9" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="ArvalTestAutomation" duration-ms="314739" started-at="2021-05-28T11:07:04 WAT" finished-at="2021-05-28T11:12:18 WAT">
+  <suite name="ArvalTestAutomation" duration-ms="181024" started-at="2021-06-02T21:13:43 WAT" finished-at="2021-06-02T21:16:44 WAT">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="ChromeTest" duration-ms="314739" started-at="2021-05-28T11:07:04 WAT" finished-at="2021-05-28T11:12:18 WAT">
+    <test name="ChromeTest" duration-ms="181024" started-at="2021-06-02T21:13:43 WAT" finished-at="2021-06-02T21:16:44 WAT">
       <class name="TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@6121c9d6]" name="setUpClass" is-config="true" duration-ms="922" started-at="2021-05-28T11:07:04 WAT" finished-at="2021-05-28T11:07:05 WAT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@6121c9d6]" name="setUpClass" is-config="true" duration-ms="1111" started-at="2021-06-02T21:13:43 WAT" finished-at="2021-06-02T21:13:45 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="15317" started-at="2021-05-28T11:07:05 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:07:20 WAT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="24233" started-at="2021-06-02T21:13:45 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:14:09 WAT">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="41152" started-at="2021-05-28T11:07:20 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:08:01 WAT">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="21000" started-at="2021-06-02T21:14:09 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:14:30 WAT">
           <params>
             <param index="0">
               <value>
@@ -53,15 +53,15 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertFalse(Assert.java:67)
 at org.testng.Assert.assertFalse(Assert.java:77)
-at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:28)
-at ✽.Select 'CDI' from the <<I'm looking for>> link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:8)
+at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:30)
+at ✽.Select 'CDI' from the <<I'm looking for>> link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:9)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="34782" started-at="2021-05-28T11:08:01 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:08:36 WAT">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="19240" started-at="2021-06-02T21:14:30 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:14:49 WAT">
           <params>
             <param index="0">
               <value>
@@ -84,15 +84,15 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertFalse(Assert.java:67)
 at org.testng.Assert.assertFalse(Assert.java:77)
-at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:31)
-at ✽.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:14)
+at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:33)
+at ✽.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:16)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="35910" started-at="2021-05-28T11:08:36 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:09:12 WAT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="22809" started-at="2021-06-02T21:14:49 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:15:12 WAT">
           <params>
             <param index="0">
               <value>
@@ -105,26 +105,10 @@ at ✽.A drop-down description is displayed, click on the link discover products
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at PageObjects.HomePage.navigateAllLink(HomePage.java:79)
-at StepDefinitions.InsecureLinkSteps.ckeckAllLink(InsecureLinkSteps.java:9)
-at ✽.ckeck all link to verify insecure links(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:17)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="41913" started-at="2021-05-28T11:09:12 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:09:54 WAT">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="19214" started-at="2021-06-02T21:15:12 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:15:31 WAT">
           <params>
             <param index="0">
               <value>
@@ -147,16 +131,16 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:21)
-at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:22)
-at ✽.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:22)
+at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:27)
+at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:24)
+at ✽.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="26034" started-at="2021-05-28T11:09:54 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:10:20 WAT">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="13836" started-at="2021-06-02T21:15:31 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:15:45 WAT">
           <params>
             <param index="0">
               <value>
@@ -179,16 +163,16 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:40)
-at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:15)
-at ✽.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
+at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:47)
+at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:17)
+at ✽.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:31)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="39463" started-at="2021-05-28T11:10:20 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:10:59 WAT">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="16015" started-at="2021-06-02T21:15:45 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:16:01 WAT">
           <params>
             <param index="0">
               <value>
@@ -211,15 +195,15 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:16)
-at ✽.click on button "Contact us"(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:30)
+at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:18)
+at ✽.click on button "Contact us"(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:36)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="35350" started-at="2021-05-28T11:10:59 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:11:35 WAT">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="19559" started-at="2021-06-02T21:16:01 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:16:21 WAT">
           <params>
             <param index="0">
               <value>
@@ -242,16 +226,16 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at PageObjects.HomePage.getcontentdropdown(HomePage.java:136)
-at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:9)
-at ✽.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:33)
+at PageObjects.HomePage.getcontentdropdown(HomePage.java:147)
+at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:11)
+at ✽.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:40)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="43033" started-at="2021-05-28T11:11:35 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T11:12:18 WAT">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6121c9d6]" name="runScenario" duration-ms="23526" started-at="2021-06-02T21:16:21 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T21:16:44 WAT">
           <params>
             <param index="0">
               <value>
@@ -274,16 +258,16 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:52)
-at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:16)
-at ✽.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:37)
+at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:60)
+at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:18)
+at ✽.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:45)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@6121c9d6]" name="tearDownClass" is-config="true" duration-ms="715" started-at="2021-05-28T11:12:18 WAT" finished-at="2021-05-28T11:12:18 WAT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@6121c9d6]" name="tearDownClass" is-config="true" duration-ms="344" started-at="2021-06-02T21:16:44 WAT" finished-at="2021-06-02T21:16:44 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

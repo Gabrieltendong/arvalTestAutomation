@@ -14,7 +14,8 @@ import java.io.IOException;
 
 public class ExcelManager {
     //--- Excel File Parameters -----------------
-    public String filePath = (System.getProperty("user.dir")+"/src/main/resources");
+//    C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\src\test\resources\reports\Verification.xlsx
+    public String filePath = (System.getProperty("user.dir")+"/src/test/resources/reports");
     public void writeExcel(String filePath,String fileName,String sheetName,String[] dataToWrite) throws IOException {
         //Create an object of File class to open xlsx file
         String os = System.getProperty("os.name");

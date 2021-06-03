@@ -5,6 +5,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.testng.Assert;
 
+import java.io.IOException;
+
 public class SlowLoadingHomePageSteps {
     @Given("user navigate to home page")
     public void navigateToHomePage(){
@@ -12,7 +14,7 @@ public class SlowLoadingHomePageSteps {
         HomePage.goToHomePage();
     }
     @Then("count number of loading times")
-    public void countTimeLoadingPage(){
+    public void countTimeLoadingPage() throws IOException {
         HomePage.countloadTime();
 //        Assert.assertTrue();
     }

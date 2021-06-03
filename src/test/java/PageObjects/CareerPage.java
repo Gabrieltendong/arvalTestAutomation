@@ -1,11 +1,17 @@
 package PageObjects;
 
 import Base.BaseClass;
+import Utils.ExcelManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import java.io.IOException;
+
 public class CareerPage  extends BaseClass {
+
+    private static ExcelManager excel = new ExcelManager();
+
     @FindBy(xpath = "//*[@id=\"block-i-need-menu\"]/div/li/a")
     private static WebElement searchHeaderBtn;
 
@@ -24,7 +30,13 @@ public class CareerPage  extends BaseClass {
         careerCDIlink.click();
     }
 
-    public static Boolean getText(){
+    public static Boolean getText() throws IOException {
+        if(resultSearchEmpty.isDisplayed()){
+            excel.excelWriting("443", "KO", getDate(), getTime());
+        }
+        else {
+            excel.excelWriting("443", "OK", getDate(), getTime());
+        }
         return resultSearchEmpty.isDisplayed();
     }
 }

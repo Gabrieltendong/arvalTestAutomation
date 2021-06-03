@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/8/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 28 11:07:04 WAT 2021</td>
+<td>Started on:</td><td>Wed Jun 02 21:13:43 WAT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>314 seconds (314739 ms)</td>
+<tr><td>Total time:</td><td>181 seconds (181024 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,142 +75,124 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bad character management", "Optional.empty"</td>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change language link is empty", "Optional.empty"</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:52)
-	at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:16)
-	at ?.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:37)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace340785455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace340785455'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.HomePage.getcontentdropdown(HomePage.java:147)
+	at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:11)
+	at ?.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:40)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace654704772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace654704772'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:52)
-	at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:16)
-	at ?.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:37)
+	at PageObjects.HomePage.getcontentdropdown(HomePage.java:147)
+	at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:11)
+	at ?.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:40)
 </pre></div></td>
-<td>43</td>
-<td>TestRunner@6121c9d6</td></tr>
-<tr>
-<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Ineffective job search filter", "Optional.empty"</td>
-<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
-	at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:28)
-	at ?.Select &apos;CDI&apos; from the &lt;&lt;I&apos;m looking for&gt;&gt; link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:8)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace32244297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace32244297'><pre>java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertFalse(Assert.java:67)
-	at org.testng.Assert.assertFalse(Assert.java:77)
-	at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:28)
-	at ?.Select &apos;CDI&apos; from the &lt;&lt;I&apos;m looking for&gt;&gt; link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:8)
-</pre></div></td>
-<td>41</td>
-<td>TestRunner@6121c9d6</td></tr>
-<tr>
-<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Image not Load", "Optional.empty"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:21)
-	at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:22)
-	at ?.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:22)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1984487613", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1984487613'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:21)
-	at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:22)
-	at ?.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:22)
-</pre></div></td>
-<td>41</td>
+<td>19</td>
 <td>TestRunner@6121c9d6</td></tr>
 <tr>
 <td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Incorret alignment component", "Optional.empty"</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:40)
-	at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:15)
-	at ?.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace406820409", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace406820409'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:47)
+	at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:17)
+	at ?.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:31)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace878791910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace878791910'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:40)
-	at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:15)
-	at ?.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
+	at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:47)
+	at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:17)
+	at ?.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:31)
 </pre></div></td>
-<td>26</td>
-<td>TestRunner@6121c9d6</td></tr>
-<tr>
-<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change language link is empty", "Optional.empty"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at PageObjects.HomePage.getcontentdropdown(HomePage.java:136)
-	at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:9)
-	at ?.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:33)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2047637979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2047637979'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.HomePage.getcontentdropdown(HomePage.java:136)
-	at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:9)
-	at ?.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:33)
-</pre></div></td>
-<td>35</td>
-<td>TestRunner@6121c9d6</td></tr>
-<tr>
-<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "link returning an error page", "Optional.empty"</td>
-<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
-	at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:31)
-	at ?.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:14)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1659387728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1659387728'><pre>java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertFalse(Assert.java:67)
-	at org.testng.Assert.assertFalse(Assert.java:77)
-	at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:31)
-	at ?.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:14)
-</pre></div></td>
-<td>34</td>
+<td>13</td>
 <td>TestRunner@6121c9d6</td></tr>
 <tr>
 <td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The "Contact us" link is non-functional", "Optional.empty"</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:16)
-	at ?.click on button &quot;Contact us&quot;(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:30)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace933330072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace933330072'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:18)
+	at ?.click on button &quot;Contact us&quot;(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:36)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace514332529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace514332529'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:16)
-	at ?.click on button &quot;Contact us&quot;(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:30)
+	at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:18)
+	at ?.click on button &quot;Contact us&quot;(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:36)
 </pre></div></td>
-<td>39</td>
+<td>16</td>
 <td>TestRunner@6121c9d6</td></tr>
 <tr>
-<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirection to insecure links", "Optional.empty"</td>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bad character management", "Optional.empty"</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at PageObjects.HomePage.navigateAllLink(HomePage.java:79)
-	at StepDefinitions.InsecureLinkSteps.ckeckAllLink(InsecureLinkSteps.java:9)
-	at ?.ckeck all link to verify insecure links(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:17)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1663025954", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1663025954'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:60)
+	at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:18)
+	at ?.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:45)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace113948163", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace113948163'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.HomePage.navigateAllLink(HomePage.java:79)
-	at StepDefinitions.InsecureLinkSteps.ckeckAllLink(InsecureLinkSteps.java:9)
-	at ?.ckeck all link to verify insecure links(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:17)
+	at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:60)
+	at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:18)
+	at ?.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:45)
 </pre></div></td>
-<td>35</td>
+<td>23</td>
+<td>TestRunner@6121c9d6</td></tr>
+<tr>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Ineffective job search filter", "Optional.empty"</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:30)
+	at ?.Select &apos;CDI&apos; from the &lt;&lt;I&apos;m looking for&gt;&gt; link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:9)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace581864066", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace581864066'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:30)
+	at ?.Select &apos;CDI&apos; from the &lt;&lt;I&apos;m looking for&gt;&gt; link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:9)
+</pre></div></td>
+<td>21</td>
+<td>TestRunner@6121c9d6</td></tr>
+<tr>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Image not Load", "Optional.empty"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:27)
+	at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:24)
+	at ?.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1449193405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1449193405'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:27)
+	at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:24)
+	at ?.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
+</pre></div></td>
+<td>19</td>
+<td>TestRunner@6121c9d6</td></tr>
+<tr>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "link returning an error page", "Optional.empty"</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:33)
+	at ?.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:16)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1498888873", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1498888873'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:33)
+	at ?.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:16)
+</pre></div></td>
+<td>19</td>
 <td>TestRunner@6121c9d6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -223,7 +205,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Slow loading of the home page", "Optional[access direct link]"</td>
 <td></td>
-<td>15</td>
+<td>24</td>
+<td>TestRunner@6121c9d6</td></tr>
+<tr>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirection to insecure links", "Optional.empty"</td>
+<td></td>
+<td>22</td>
 <td>TestRunner@6121c9d6</td></tr>
 </table><p>
 </body>

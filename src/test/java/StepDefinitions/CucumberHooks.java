@@ -2,9 +2,12 @@ package StepDefinitions;
 
 import Base.BaseClass;
 import PageObjects.*;
+import Utils.SendMail;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterSuite;
+
 import java.io.IOException;
 public class CucumberHooks extends BaseClass {
     @Before
@@ -22,9 +25,18 @@ public class CucumberHooks extends BaseClass {
     }
     @After
     public void teardown() throws IOException {
-//        closeDriver(driver);
+        closeDriver(driver);
+        SendMail sendMail = new SendMail();
+        sendMail.sendEmail("gabitendong@gmail.com", "gabi2017", "gtendong@gmail.com");
+        sendMail.sendEmail("gabitendong@gmail.com", "gabi2017", "fokourou@zenity.fr");
        // ExcelManager.formatResult("reports/Verification.xlsx","Data");
 //      SendEmail.sendEmailTo("fokourou@zenity.fr");
 //        SendEmail.sendEmailTo("israel.mouofopk68@gmail.com");
+    }
+    @AfterSuite
+    public void endTestSuite(){
+        System.out.println("after test suite");
+        SendMail sendMail = new SendMail();
+        sendMail.sendEmail("gabitendong@gmail.com", "gabi2017", "gtendong@gmail.com");
     }
 }

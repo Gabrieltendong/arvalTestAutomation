@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 
@@ -51,5 +52,17 @@ public class BaseClass {
     public static void navigateTo(WebElement element){
         String url = element.getAttribute("href");
         driver.navigate().to(url);
+    }
+
+    public static String getDate(){
+        date = LocalDate.now();
+        value_date = date.toString();
+        return value_date;
+    }
+
+    public static String getTime(){
+        tps = LocalTime.now();
+        value_tps = tps.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+        return value_tps;
     }
 }

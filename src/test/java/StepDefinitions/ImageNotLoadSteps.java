@@ -6,6 +6,8 @@ import PageObjects.WhyArvalPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
+import java.io.IOException;
+
 public class ImageNotLoadSteps {
     @And("navigate to link Fleet management solutions")
     public void navigateToLinkFleetManagementSolutions(){
@@ -18,7 +20,7 @@ public class ImageNotLoadSteps {
     }
 
     @Then("see image header not load")
-    public void checkLoadImage(){
+    public void checkLoadImage() throws IOException {
         WhyArvalPage.verifyLoadImage();
     }
 }

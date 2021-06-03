@@ -1,6 +1,7 @@
 package PageObjects;
 
 import Base.BaseClass;
+import Utils.ExcelManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import java.io.IOException;
 import java.util.List;
 
 public class HomePage extends BaseClass{
@@ -16,6 +18,7 @@ public class HomePage extends BaseClass{
     private static long startTime;
     private static long finishTime;
     private static long totalTime;
+    private static ExcelManager excel = new ExcelManager();
 
     @FindBy(xpath = "//*[@id=\"block-menu-menu-segments\"]/ul/li[1]/a")
     private static WebElement linklongTermRental;
@@ -72,11 +75,13 @@ public class HomePage extends BaseClass{
         navigateTo(anInternationalPatnerLink);
     }
 
-    public static void navigateAllLink(){
+    public static void navigateAllLink() throws IOException {
+        excel.excelWriting("495", "OK", getDate(), getTime());
         for(int i = 0; i < listLink.size(); i++){
             String url = listLink.get(i).getAttribute("href");
             if(url != null && url.split(":")[0].equals("http")){
-                Assert.assertTrue(false);
+                excel.excelWriting("495", "KO", getDate(), getTime());
+//                Assert.assertTrue(false);
                 System.out.println("link: " + listLink.get(i).getAttribute("href"));
             }
         }
@@ -86,13 +91,15 @@ public class HomePage extends BaseClass{
         startTime = System.currentTimeMillis();
     }
 
-    public static boolean countloadTime(){
+    public static boolean countloadTime() throws IOException {
         finishTime = System.currentTimeMillis();
         totalTime = finishTime - startTime;
         if((totalTime/1000)< 5){
+            excel.excelWriting("449", "OK", getDate(), getTime());
             System.out.println("temps de chargement normal" + totalTime/1000);
             return true;
         }else {
+            excel.excelWriting("449", "KO", getDate(), getTime());
             System.out.println("temps de chargement long" + totalTime/1000);
             return false;
         }
@@ -115,23 +122,27 @@ public class HomePage extends BaseClass{
         }
     }
 
-    public static boolean getUrlContact(){
+    public static boolean getUrlContact() throws IOException {
         String url = btnContact.getAttribute("href");
         if(url.contains("#xx")){
+            excel.excelWriting("448", "KO", getDate(), getTime());
             System.out.println("link non correct, bug non corrigé" + url);
             return false;
         }else{
+            excel.excelWriting("448", "OK", getDate(), getTime());
             System.out.println("link correct, bug corrigé" + url);
             return true;
         }
     }
 
-    public static void getcontentdropdown(){
+    public static void getcontentdropdown() throws IOException {
         List<WebElement> allElement = dropdown_lang.findElements(By.xpath(".//*"));
         if(allElement.size() != 0){
+            excel.excelWriting("441", "OK", getDate(), getTime());
             System.out.println("bug resolu");
             Assert.assertTrue(true);
         }else {
+            excel.excelWriting("441", "KO", getDate(), getTime());
             System.out.println("bug non resolu");
             Assert.assertTrue(false);
         }

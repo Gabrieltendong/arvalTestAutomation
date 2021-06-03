@@ -8,6 +8,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.testng.Assert;
 
+import java.io.IOException;
+
 public class LinkNotFoundSteps {
     @And("At footer level click on an international partner")
     public void navigateToInternationalPartner(){
@@ -26,7 +28,7 @@ public class LinkNotFoundSteps {
     }
 
     @And("A drop-down description is displayed, click on the link discover products and services")
-    public void aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices() {
+    public void aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices() throws IOException {
         boolean isdisplay = ProductAndServicePage.getDiplayBlocError();
         Assert.assertFalse(isdisplay);
     }

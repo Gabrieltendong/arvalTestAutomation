@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="316.483" tests="9" errors="0" skipped="0" failures="8">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="182.433" tests="9" errors="0" skipped="0" failures="7">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Gabriel\AppData\Local\Temp\surefire6137397881500639848\surefirebooter4685182627528042217.jar C:\Users\Gabriel\AppData\Local\Temp\surefire6137397881500639848 2021-05-28T11-06-59_971-jvmRun1 surefire6415483153892379318tmp surefire_07204575710257564961tmp"/>
+    <property name="sun.java.command" value="C:\Users\Gabriel\AppData\Local\Temp\surefire8743779550319590260\surefirebooter6245138726833960229.jar C:\Users\Gabriel\AppData\Local\Temp\surefire8743779550319590260 2021-06-02T21-13-36_843-jvmRun1 surefire5087357387262674785tmp surefire_03225792856372053934tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\target\test-classes;C:\Users\Gabriel\Documents\PAWK\Projets\ArvalTestAutomation\target\classes;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Gabriel\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gabriel\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Gabriel\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Gabriel\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Gabriel\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Gabriel\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Gabriel\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-2\selenium-java-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-2\selenium-edgehtml-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-2\selenium-edge-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-2\selenium-firefox-xpi-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-2\selenium-firefox-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-2\selenium-ie-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-2\selenium-opera-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-2\selenium-safari-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Gabriel\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Gabriel\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-testng\6.10.3\cucumber-testng-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-picocontainer\6.10.3\cucumber-picocontainer-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-2\selenium-api-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-2\selenium-chrome-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-2\selenium-chromium-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-2\selenium-support-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-2\selenium-remote-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\contrib\opentracing-tracerresolver\0.1.7\opentracing-tracerresolver-0.1.7.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okhttp3\okhttp\3.14.0\okhttp-3.14.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-util\0.33.0\opentracing-util-0.33.0.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-noop\0.33.0\opentracing-noop-0.33.0.jar;C:\Users\Gabriel\.m2\repository\org\jetbrains\annotations\21.0.1\annotations-21.0.1.jar;C:\Users\Gabriel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Gabriel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Gabriel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Gabriel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Gabriel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Gabriel\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Gabriel\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Gabriel"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Gabriel\AppData\Local\Temp\surefire6137397881500639848\surefirebooter4685182627528042217.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gabriel\AppData\Local\Temp\surefire8743779550319590260\surefirebooter6245138726833960229.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,34 +61,37 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Slow loading of the home page&quot;, &quot;Optional[access direct link]&quot;](1)" classname="TestRunner" time="15.622">
+  <testcase name="runScenario[&quot;Slow loading of the home page&quot;, &quot;Optional[access direct link]&quot;](1)" classname="TestRunner" time="24.397">
     <system-out><![CDATA[
-Scenario: Slow loading of the home page # src/test/resources/features/accessDirectLink.feature:3
+@Bug_449
+Scenario: Slow loading of the home page # src/test/resources/features/accessDirectLink.feature:4
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (3c50a4423eb2601695f0f363fe306b64)
+driver: ChromeDriver: chrome on WINDOWS (598bc7e314983ca6c1733321cbb65fec)
   Given user navigate to home page      # StepDefinitions.SlowLoadingHomePageSteps.navigateToHomePage()
-temps de chargement long11
+temps de chargement long8
   Then count number of loading times    # StepDefinitions.SlowLoadingHomePageSteps.countTimeLoadingPage()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 1046
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 38746
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196427.073][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196427.075][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:07:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664827.703][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664827.703][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664830.695][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:13:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Ineffective job search filter&quot;, &quot;Optional.empty&quot;](2)" classname="TestRunner" time="41.333">
+  <testcase name="runScenario[&quot;Ineffective job search filter&quot;, &quot;Optional.empty&quot;](2)" classname="TestRunner" time="21.031">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
 ]]></failure>
     <system-out><![CDATA[
-Scenario: Ineffective job search filter               # src/test/resources/features/arval.feature:5
+@Bug_443
+Scenario: Ineffective job search filter               # src/test/resources/features/arval.feature:6
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (104970406c5d2e79dce828302b36c050)
+driver: ChromeDriver: chrome on WINDOWS (fad9e2d59af273e912d24d4ebaa9c54e)
   Given user connect to the homePage                  # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
   And Click on the link About Arval                   # StepDefinitions.IneffectiveJobSearchFilterSteps.ClickOnTheLinkAboutArval()
   And Click on the link 'Careers & jobs'              # StepDefinitions.IneffectiveJobSearchFilterSteps.ClickOnTheLinkCareersJobs()
@@ -98,28 +101,30 @@ driver: ChromeDriver: chrome on WINDOWS (104970406c5d2e79dce828302b36c050)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertFalse(Assert.java:67)
 	at org.testng.Assert.assertFalse(Assert.java:77)
-	at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:28)
-	at âœ½.Select 'CDI' from the <<I'm looking for>> link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:8)
+	at StepDefinitions.IneffectiveJobSearchFilterSteps.SelectCareerCDI(IneffectiveJobSearchFilterSteps.java:30)
+	at âœ½.Select 'CDI' from the <<I'm looking for>> link(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:9)
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 38118
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24435
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196441.075][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196441.075][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:07:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664849.933][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664849.933][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664850.791][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:14:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;link returning an error page&quot;, &quot;Optional.empty&quot;](3)" classname="TestRunner" time="35.174">
+  <testcase name="runScenario[&quot;link returning an error page&quot;, &quot;Optional.empty&quot;](3)" classname="TestRunner" time="19.3">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
 ]]></failure>
     <system-out><![CDATA[
-Scenario: link returning an error page                                                                        # src/test/resources/features/arval.feature:10
+@Bug_499
+Scenario: link returning an error page                                                                        # src/test/resources/features/arval.feature:12
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (05021c849d9c67ab5791f74b365e5282)
+driver: ChromeDriver: chrome on WINDOWS (4d47d6cf54d5307c0c8d44b4a0dbec0b)
   Given user connect to the homePage                                                                          # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
   And At footer level click on an international partner                                                       # StepDefinitions.LinkNotFoundSteps.navigateToInternationalPartner()
   Then The international partner page opens, in the navigation bar click on the expertise and professions tab # StepDefinitions.LinkNotFoundSteps.navigateToexpertiseAndProfessional()
@@ -130,58 +135,55 @@ driver: ChromeDriver: chrome on WINDOWS (05021c849d9c67ab5791f74b365e5282)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertFalse(Assert.java:67)
 	at org.testng.Assert.assertFalse(Assert.java:77)
-	at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:31)
-	at âœ½.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:14)
+	at StepDefinitions.LinkNotFoundSteps.aDropDownDescriptionIsDisplayedClickOnTheLinkDiscoverProductsAndServices(LinkNotFoundSteps.java:33)
+	at âœ½.A drop-down description is displayed, click on the link discover products and services(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:16)
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 25042
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 26813
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196482.206][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196482.207][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:08:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664870.963][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664870.964][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664871.715][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:14:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Redirection to insecure links&quot;, &quot;Optional.empty&quot;](4)" classname="TestRunner" time="35.379">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
-]]></failure>
+  <testcase name="runScenario[&quot;Redirection to insecure links&quot;, &quot;Optional.empty&quot;](4)" classname="TestRunner" time="22.747">
     <system-out><![CDATA[
-Scenario: Redirection to insecure links       # src/test/resources/features/arval.feature:16
+@Bug_495
+Scenario: Redirection to insecure links       # src/test/resources/features/arval.feature:19
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (9121f7c80d8e40cbeb289cbb61fed32a)
+driver: ChromeDriver: chrome on WINDOWS (d23cc15d8f8dc3cc6802484c10b63395)
   Given user connect to the homePage          # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
+link: http://lp-info.arval.com/comparatif-vehicule-professionnel-personnel
+link: http://lp-info.arval.com/livre-blanc-financement-vehicule-professionnel
+link: http://www.arval.fr/pro/choisir-ma-voiture
+link: http://arval.com/
   And ckeck all link to verify insecure links # StepDefinitions.InsecureLinkSteps.ckeckAllLink()
-      java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.HomePage.navigateAllLink(HomePage.java:79)
-	at StepDefinitions.InsecureLinkSteps.ckeckAllLink(InsecureLinkSteps.java:9)
-	at âœ½.ckeck all link to verify insecure links(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:17)
-
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46772
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 12056
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196516.984][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196516.984][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:08:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664890.174][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664890.174][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664890.876][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:14:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Image not Load&quot;, &quot;Optional.empty&quot;](5)" classname="TestRunner" time="41.774">
+  <testcase name="runScenario[&quot;Image not Load&quot;, &quot;Optional.empty&quot;](5)" classname="TestRunner" time="19.196">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 ]]></failure>
     <system-out><![CDATA[
-Scenario: Image not Load                          # src/test/resources/features/arval.feature:19
+@Bug_488
+Scenario: Image not Load                          # src/test/resources/features/arval.feature:23
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (92fef6870dd5049878f269dd082108f6)
+driver: ChromeDriver: chrome on WINDOWS (1c16b85108b9ad8f161b3563b95a9bee)
   Given user connect to the homePage              # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
   And navigate to link Fleet management solutions # StepDefinitions.ImageNotLoadSteps.navigateToLinkFleetManagementSolutions()
   And navigate to link Why arval                  # StepDefinitions.ImageNotLoadSteps.navigateToLinkWhyArval()
@@ -191,29 +193,31 @@ driver: ChromeDriver: chrome on WINDOWS (92fef6870dd5049878f269dd082108f6)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:21)
-	at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:22)
-	at âœ½.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:22)
+	at PageObjects.WhyArvalPage.verifyLoadImage(WhyArvalPage.java:27)
+	at StepDefinitions.ImageNotLoadSteps.checkLoadImage(ImageNotLoadSteps.java:24)
+	at âœ½.see image header not load(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 37644
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 34633
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196552.899][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196552.899][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:09:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664912.994][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664912.994][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664913.796][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:15:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Incorret alignment component&quot;, &quot;Optional.empty&quot;](6)" classname="TestRunner" time="26.08">
+  <testcase name="runScenario[&quot;Incorret alignment component&quot;, &quot;Optional.empty&quot;](6)" classname="TestRunner" time="13.834">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 ]]></failure>
     <system-out><![CDATA[
-Scenario: Incorret alignment component        # src/test/resources/features/arval.feature:24
+@Bug_481
+Scenario: Incorret alignment component        # src/test/resources/features/arval.feature:29
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (0e395026daf7775182dcc249d769fcaa)
+driver: ChromeDriver: chrome on WINDOWS (581b8e641071e1f0903abb549075cdde)
   Given user connect to the homePage          # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
   And navigate to "a car in long term rental" # StepDefinitions.IncorretAlignmentComponentSteps.navigateToCarInLongTermRental()
 Bug non corrigé
@@ -223,29 +227,31 @@ Bug non corrigé
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:40)
-	at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:15)
-	at âœ½.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:26)
+	at PageObjects.ProfessionalPage.comparePosition(ProfessionalPage.java:47)
+	at StepDefinitions.IncorretAlignmentComponentSteps.verfiyPositionElement(IncorretAlignmentComponentSteps.java:17)
+	at âœ½.verfiy position element(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:31)
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 39899
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 12138
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196594.988][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196594.989][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:09:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664932.183][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664932.183][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664932.861][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:15:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;The &quot;Contact us&quot; link is non-functional&quot;, &quot;Optional.empty&quot;](7)" classname="TestRunner" time="39.418">
+  <testcase name="runScenario[&quot;The &quot;Contact us&quot; link is non-functional&quot;, &quot;Optional.empty&quot;](7)" classname="TestRunner" time="16.03">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 ]]></failure>
     <system-out><![CDATA[
-Scenario: The "Contact us" link is non-functional # src/test/resources/features/arval.feature:28
+@Bug_448
+Scenario: The "Contact us" link is non-functional # src/test/resources/features/arval.feature:34
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (cc905a72ca86263745ef41747aefe21f)
+driver: ChromeDriver: chrome on WINDOWS (61679525db3d8cc70d27b2c800ae38ae)
   Given user connect to the homePage              # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
   And search car                                  # StepDefinitions.ContactLinkNotWorking.searchCar()
 link non correct, bug non corrigéhttps://www.arval.fr/location/abarth?vehicleTypeRef=VHTPRI#xx
@@ -255,28 +261,30 @@ link non correct, bug non corrigéhttps://www.arval.fr/location/abarth?vehicleTy
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:16)
-	at âœ½.click on button "Contact us"(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:30)
+	at StepDefinitions.ContactLinkNotWorking.clickOnButtonContact(ContactLinkNotWorking.java:18)
+	at âœ½.click on button "Contact us"(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:36)
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 35877
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 17405
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196620.823][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196620.823][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:10:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664946.052][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664946.052][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664946.776][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:15:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Change language link is empty&quot;, &quot;Optional.empty&quot;](8)" classname="TestRunner" time="35.404">
+  <testcase name="runScenario[&quot;Change language link is empty&quot;, &quot;Optional.empty&quot;](8)" classname="TestRunner" time="19.543">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 ]]></failure>
     <system-out><![CDATA[
-Scenario: Change language link is empty # src/test/resources/features/arval.feature:32
+@Bug_441
+Scenario: Change language link is empty # src/test/resources/features/arval.feature:39
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (8d3748579fb998e33e6a9443903a3300)
+driver: ChromeDriver: chrome on WINDOWS (1503dabf4bf999cac125a17408ef20e3)
   Given user connect to the homePage    # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
 bug non resolu
   And change language website           # StepDefinitions.ChangeLangWorkingSteps.changeLanguage()
@@ -285,29 +293,31 @@ bug non resolu
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.HomePage.getcontentdropdown(HomePage.java:136)
-	at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:9)
-	at âœ½.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:33)
+	at PageObjects.HomePage.getcontentdropdown(HomePage.java:147)
+	at StepDefinitions.ChangeLangWorkingSteps.changeLanguage(ChangeLangWorkingSteps.java:11)
+	at âœ½.change language website(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:40)
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 40031
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 18005
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196660.422][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196660.422][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:11:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664962.070][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664962.070][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664962.692][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:16:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Bad character management&quot;, &quot;Optional.empty&quot;](9)" classname="TestRunner" time="43.177">
+  <testcase name="runScenario[&quot;Bad character management&quot;, &quot;Optional.empty&quot;](9)" classname="TestRunner" time="23.581">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 ]]></failure>
     <system-out><![CDATA[
-Scenario: Bad character management   # src/test/resources/features/arval.feature:35
+@Bug_467
+Scenario: Bad character management   # src/test/resources/features/arval.feature:43
 salut
 Windows 10
-driver: ChromeDriver: chrome on WINDOWS (12cdb7a269c64334c9b171ea7a41fb0b)
+driver: ChromeDriver: chrome on WINDOWS (960d80f270ea9f48242cb6e25abeb0b4)
   Given user connect to the homePage # StepDefinitions.OpenHomePageStep.user_connect_to_the_home_page()
   And navigate to professional page  # StepDefinitions.BadCharacterManagementSteps.navigateToProfessionalPage()
 Bug corrigé: 
@@ -340,18 +350,19 @@ Bug non corrigé: S�RIE 3 BERLINE / 4P / BERLINE
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:52)
-	at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:16)
-	at âœ½.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:37)
+	at PageObjects.ProfessionalPage.verifyNameMark(ProfessionalPage.java:60)
+	at StepDefinitions.BadCharacterManagementSteps.navigateToMarkBMW(BadCharacterManagementSteps.java:18)
+	at âœ½.click to mark BMW(file:///C:/Users/Gabriel/Documents/PAWK/Projets/ArvalTestAutomation/src/test/resources/features/arval.feature:45)
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 32596
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41781
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622196695.765][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1622196695.766][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-mai 28, 2021 11:11:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622664981.616][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664981.617][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1622664982.329][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 02, 2021 9:16:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>

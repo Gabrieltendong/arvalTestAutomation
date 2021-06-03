@@ -2,9 +2,11 @@ PageObjects\ProfessionalPage.class
 StepDefinitions\IncorretAlignmentComponentSteps.class
 StepDefinitions\ChangeLangWorkingSteps.class
 StepDefinitions\ContactLinkNotWorking.class
+Utils\SendMail.class
 PageObjects\CareerPage.class
 StepDefinitions\BadCharacterManagementSteps.class
 StepDefinitions\LinkNotFoundSteps.class
+Utils\SendMail$1.class
 PageObjects\ProductAndServicePage.class
 TestRunner.class
 PageObjects\ExpertiseAndProfessionPage.class

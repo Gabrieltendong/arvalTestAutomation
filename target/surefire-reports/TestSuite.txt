@@ -1,28 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 316.483 s <<< FAILURE! - in TestSuite
-TestRunner.runScenario["Ineffective job search filter", "Optional.empty"](2)  Time elapsed: 41.333 s  <<< FAILURE!
+Tests run: 9, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 182.433 s <<< FAILURE! - in TestSuite
+TestRunner.runScenario["Ineffective job search filter", "Optional.empty"](2)  Time elapsed: 21.031 s  <<< FAILURE!
 java.lang.AssertionError: expected [false] but found [true]
 
-TestRunner.runScenario["link returning an error page", "Optional.empty"](3)  Time elapsed: 35.174 s  <<< FAILURE!
+TestRunner.runScenario["link returning an error page", "Optional.empty"](3)  Time elapsed: 19.3 s  <<< FAILURE!
 java.lang.AssertionError: expected [false] but found [true]
 
-TestRunner.runScenario["Redirection to insecure links", "Optional.empty"](4)  Time elapsed: 35.379 s  <<< FAILURE!
+TestRunner.runScenario["Image not Load", "Optional.empty"](5)  Time elapsed: 19.196 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 
-TestRunner.runScenario["Image not Load", "Optional.empty"](5)  Time elapsed: 41.774 s  <<< FAILURE!
+TestRunner.runScenario["Incorret alignment component", "Optional.empty"](6)  Time elapsed: 13.834 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 
-TestRunner.runScenario["Incorret alignment component", "Optional.empty"](6)  Time elapsed: 26.08 s  <<< FAILURE!
+TestRunner.runScenario["The "Contact us" link is non-functional", "Optional.empty"](7)  Time elapsed: 16.03 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 
-TestRunner.runScenario["The "Contact us" link is non-functional", "Optional.empty"](7)  Time elapsed: 39.418 s  <<< FAILURE!
+TestRunner.runScenario["Change language link is empty", "Optional.empty"](8)  Time elapsed: 19.543 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 
-TestRunner.runScenario["Change language link is empty", "Optional.empty"](8)  Time elapsed: 35.404 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-
-TestRunner.runScenario["Bad character management", "Optional.empty"](9)  Time elapsed: 43.177 s  <<< FAILURE!
+TestRunner.runScenario["Bad character management", "Optional.empty"](9)  Time elapsed: 23.581 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 
